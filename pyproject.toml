@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "mellon_covid_analysis"
+version = "0.0.1"
+description = "Tool for manipulating and analyizing COVID-19 data from Carnegie Mellon"
+authors = ["Cameron Winter <cjwinter@ksu.edu>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
